@@ -1,0 +1,11 @@
+package introdução;
+
+import java.util.Scanner;
+
+public class Exercico5 {
+
+	double n1, n2, n3, m;
+	Scanner ler =new Scanner(System.in);
+	
+	System.out
+}

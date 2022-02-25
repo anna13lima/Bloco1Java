@@ -1,0 +1,13 @@
+package introdução;
+
+import java.util.Scanner;
+
+public class exercicio3 {
+	int ev, h, m, s, r;
+	Scanner ler =new Scanner(System.in);
+	
+	System.out.println("digite od segundos:");
+	ev=ler.nextInt();
+	
+
+}

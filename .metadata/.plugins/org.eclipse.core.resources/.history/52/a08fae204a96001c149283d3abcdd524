@@ -1,0 +1,25 @@
+package introdução;
+
+import java.util.Scanner;
+
+public class exercicio2 {
+
+	public static void main(String[] args) {
+		
+	   int anos , meses, dias , resp , sobra;
+	   Scanner ler = new Scanner (System.in);
+	   
+	   System.out.println("digite sua idade: ");
+	   resp=ler.nextInt();
+	   
+	   anos=resp/365;
+	   sobra=resp%365;
+	   meses=sobra/30;
+	   dias=sobra%30;
+			   
+	   System.out.println("\nsua idade é :  \nanos"+anos+"\nmeses"+meses+"\ndias"+dias);
+	   
+
+	}
+
+}
